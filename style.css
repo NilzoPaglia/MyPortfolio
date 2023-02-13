@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    
+}
+.pai {
+    display: flex;
+}
+.sidebar {
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    background-color: #0077C9;
+}
+.sidebar-pos {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+.img {
+    text-align: center;
+}
+.img img {
+    width: 80%;
+    border-radius: 50%;
+    border: 3px solid #2EC4B6;
+}
+.menu {
+    margin: 20px 0;
+    text-align: center;
+    position: relative;
+    
+    
+}
+.menu a {
+    color: #d9dfe4;
+    opacity: 0.4;
+    font-size: 1.2em;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.menu a.selected {
+    opacity: 1;
+}
+.conteudo {
+    position: absolute;
+    left: 20%;
+    width: 80%;
+    height: 100%;
+    padding: 0 3%;
+    
+}
+section.descricao {
+    position: relative;
+    top: 50%;                   /*para deixar o menu alinhado na parte da lateral esquerda dos eixos X e Y da tela */
+    transform: translateY(-50%);
+
+}
+.redessociais img {
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+    margin-top: 20px;
+    
+    
+}
+
+.redessociais a {
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 0 10px; 
+    display: inline-block;
+    text-align: center;
+    
+}
+section.descricao h2{
+    color: #18B0B0;
+    font-size: 46px;
+}
+section.descricao h2 > span,
+section.descricao h3 > span{
+    color: #0077C9;
+}
+section.descricao h3 {
+    color: #51CACA ;
+    font-size: 24px;
+    margin: 15px 5px;
+}
+section.descricao a{
+    text-decoration: none;
+    color: #0077C9;
+    font-size: 24px;
+
+}
+section.descricao p{
+    color: #6c757d;
+    font-size: 19px;
+    margin-top: 40px;
+}
