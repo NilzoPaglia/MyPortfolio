@@ -102,25 +102,30 @@ section.contato {
     margin: 0 10px; 
     display: inline-block;
     text-align: center;
+    margin-right: 30px;
     
 }
 section.descricao h2{
     color: #18B0B0;
     font-size: 46px;
+    margin-right: 30px ;
 }
 section.descricao h2 > span,
 section.descricao h3 > span{
     color: #0077C9;
+    margin-right: 30px;
 }
 section.descricao h3,
 section.descricao h4 {
     color: #51CACA ;
     font-size: 24px;
     margin: 20px 15px;
+    margin-right: 30px;
 }
 section.contato h2 > span,
 section.contato h3 > span{
     color: #0077C9;
+    margin-right: 30px;
 }
 section.contato h3,
 section.contato h4 {
