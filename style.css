@@ -103,7 +103,8 @@ section.descricao h2 > span,
 section.descricao h3 > span{
     color: #0077C9;
 }
-section.descricao h3 {
+section.descricao h3,
+section.descricao h4 {
     color: #51CACA ;
     font-size: 24px;
     margin: 15px 5px;
@@ -118,4 +119,26 @@ section.descricao p{
     color: #6c757d;
     font-size: 19px;
     margin-top: 40px;
+}
+
+@media (max-width:400px) {
+    .menu {
+        margin: 20px 0;
+        text-align: center;
+        position: relative;
+}
+
+.sidebar {
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    background-color: #0077C9;
+}
+
+.conteudo {
+    position: absolute;
+    left: 25%;
+    width: 80%;
+    height: 100%;
+    padding: 0 3%;
 }
