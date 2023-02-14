@@ -164,7 +164,8 @@ input [type=text], textarea, select {
     padding: 10px;
     width: 55vw;
     margin-top: 5px;
-    font-size: 15px;
+    font-size: 16px;
+    
 
 }
 
@@ -174,6 +175,7 @@ input [type=text], textarea, select {
     border:  solid #18B0B0;
     font-size: 16px;
     outline: 0;
+    color: #18B0B0;
    
     
 
@@ -185,7 +187,7 @@ input [type=text], textarea, select {
     border:  solid #18B0B0;
     font-size: 16px;
     outline: 0;
-   
+   color: #18B0B0;
     
 
 }
@@ -194,6 +196,19 @@ textarea {
     height: 20vh;
     resize: none;
     border: solid #18B0B0;
+    font-size: 16px;
+    
+    
+}
+
+label textarea {
+    color: #18B0B0;
+    font-size: 16px;
+}
+
+label select option{
+    color: #0077C9;
+    
     
 }
 
@@ -209,8 +224,9 @@ button:hover {
     background-color: #ddd;
 }
 
-label select {
+label select, label select:focus-within {
     border: solid #18B0B0;
+    color: #18B0B0;
 }
 
 @media (max-width:400px) {
