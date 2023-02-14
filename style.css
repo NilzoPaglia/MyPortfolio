@@ -62,6 +62,13 @@ section.descricao {
     transform: translateY(-50%);
 
 }
+section.contato {
+    position: relative;
+    top: 50%;                   /*para deixar o menu alinhado na parte da lateral esquerda dos eixos X e Y da tela */
+    transform: translateY(-50%);
+
+}
+
 .redessociais img {
     width: 25px;
     height: 25px;
@@ -109,6 +116,16 @@ section.descricao h4 {
     font-size: 24px;
     margin: 15px 5px;
 }
+section.contato h2 > span,
+section.contato h3 > span{
+    color: #0077C9;
+}
+section.contato h3,
+section.contato h4 {
+    color: #51CACA ;
+    font-size: 24px;
+    margin: 15px 5px;
+}
 section.descricao a{
     text-decoration: none;
     color: #0077C9;
@@ -119,6 +136,81 @@ section.descricao p{
     color: #6c757d;
     font-size: 19px;
     margin-top: 40px;
+}
+
+form, input{
+    display: block;
+    padding: 5px;
+    margin-top: 8px;
+    color: #0077C9;
+}
+
+label {
+    display: block;
+    margin: 25px 0 ;
+}
+
+.termos {
+    display: inline;
+    color: #0077C9;
+    text-decoration: none;
+}
+
+.termos:hover {
+    text-decoration: underline;
+}
+
+input [type=text], textarea, select {
+    padding: 10px;
+    width: 55vw;
+    margin-top: 5px;
+    font-size: 15px;
+
+}
+
+.fullname input {
+    padding: 10px;
+    width: 55vw;
+    border:  solid #18B0B0;
+    font-size: 16px;
+    outline: 0;
+   
+    
+
+}
+
+.email input {
+    padding: 10px;
+    width: 55vw;
+    border:  solid #18B0B0;
+    font-size: 16px;
+    outline: 0;
+   
+    
+
+}
+
+textarea {
+    height: 20vh;
+    resize: none;
+    border: solid #18B0B0;
+    
+}
+
+button {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+label select {
+    border: solid #18B0B0;
 }
 
 @media (max-width:400px) {
