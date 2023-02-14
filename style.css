@@ -79,16 +79,19 @@ section.contato {
 }
 
 .logoescolas img {
-    width: 15%;
-    height: 15%;
+    width: 12%;
+    
     margin-left: 20px;
     margin-top: 20px;
+    margin-left: 20px;
     
     
 }
 .breve img {
     
-    width: 25vw;
+    width: 30vw;
+    margin-top: 30px;
+    margin-left: 20px;
 
 }
 
@@ -136,6 +139,7 @@ section.descricao p{
     color: #6c757d;
     font-size: 19px;
     margin-top: 40px;
+    margin-right: 30px;
 }
 
 form, input{
